@@ -24,12 +24,12 @@ class RecipeWebViewViewModel @Inject constructor(
     var state by mutableStateOf(RecipeWebViewState())
 
     init {
-        getRecipesUrl()
+        getRecipeUrl()
     }
 
 
 
-    private fun getRecipesUrl() {
+    private fun getRecipeUrl() {
 
         viewModelScope.launch {
             val id = savedStateHandle.get<String>("id") ?: return@launch
