@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="recipe_categories">Recipe categories</string>
+    <string name="recipes_tag">recipes</string>
+</resources>
